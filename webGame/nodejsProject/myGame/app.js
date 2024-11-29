@@ -13,7 +13,7 @@ var con = mysql.createConnection({
 });
 
 //set up static folder
-app.use(express.static('static'));
+app.use(express.static('myGame/static'));
 
 con.connect(function(err) {
   if (err) throw err;

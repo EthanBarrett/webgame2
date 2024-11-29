@@ -217,7 +217,7 @@ window.addEventListener('resize', onWindowResize);
 const createskybox = ()=>{
 	let bgMesh;
 	const loader = new THREE.TextureLoader();
-	loader.load("resources/img/galaxy.jpg", function(texture){
+	loader.load("myGame/resources/img/galaxy.jpg", function(texture){
 		const sphereGeometry = new THREE.SphereGeometry(1000, 60, 40);
 		const sphereMaterial = new THREE.MeshBasicMaterial({
 			map: texture,
