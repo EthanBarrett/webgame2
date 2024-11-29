@@ -36,6 +36,14 @@ app.get('/some', (req, res) => {
     res.send('This is test page')
   })
 
+  //the 404 route
+  app.get('*', function(req, res){
+    __dirname
+    console.log(__dirname);
+    res.status(404).sendFile(__dirname +'/404page.html');
+  });
+    
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
