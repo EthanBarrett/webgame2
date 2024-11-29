@@ -1,0 +1,42 @@
+15:23:24  [main] 	Initializing Control Panel
+15:23:24  [main] 	Windows Version:  Enterprise  64-bit
+15:23:24  [main] 	XAMPP Version: 8.2.12
+15:23:24  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+15:23:24  [main] 	You are not running with administrator rights! This will work for
+15:23:24  [main] 	most application stuff but whenever you do something with services
+15:23:24  [main] 	there will be a security dialogue or things will break! So think 
+15:23:24  [main] 	about running this application with administrator rights!
+15:23:24  [main] 	XAMPP Installation Directory: "c:\xampp\"
+15:23:24  [main] 	Checking for prerequisites
+15:23:24  [main] 	All prerequisites found
+15:23:24  [main] 	Initializing Modules
+15:23:24  [main] 	The FileZilla module is disabled
+15:23:24  [main] 	The Mercury module is disabled
+15:23:24  [Tomcat] 	Problem detected!
+15:23:24  [Tomcat] 	Port 8005 in use by "Unable to open process"!
+15:23:24  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+15:23:24  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+15:23:24  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+15:23:24  [main] 	Starting Check-Timer
+15:23:24  [main] 	Control Panel Ready
+15:23:33  [Apache] 	Attempting to start Apache app...
+15:23:33  [Apache] 	Status change detected: running
+15:23:38  [mysql] 	Attempting to start MySQL app...
+15:23:39  [mysql] 	Status change detected: running
+16:01:30  [mysql] 	Attempting to stop MySQL app...
+16:01:30  [mysql] 	Status change detected: stopped
+16:01:31  [Apache] 	Attempting to stop Apache (PID: 17220)
+16:01:31  [Apache] 	Attempting to stop Apache (PID: 24696)
+16:01:32  [Apache] 	Status change detected: stopped
+16:02:00  [Apache] 	Attempting to start Apache app...
+16:02:00  [Apache] 	Status change detected: running
+16:02:02  [mysql] 	Attempting to start MySQL app...
+16:02:02  [mysql] 	Status change detected: running
+16:45:59  [mysql] 	Attempting to stop MySQL app...
+16:45:59  [mysql] 	Status change detected: stopped
+16:46:00  [Apache] 	Attempting to stop Apache (PID: 24660)
+16:46:00  [Apache] 	Attempting to stop Apache (PID: 35016)
+16:46:00  [Apache] 	Status change detected: stopped
+16:46:41  [main] 	Deinitializing Modules
+16:46:41  [main] 	Deinitializing Control Panel
+

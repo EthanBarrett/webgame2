@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+     Put your page here 
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body style="color:rgb(5, 186, 231);">
+        <h1>
+         my adventure!
+        </h1>
+        <a href="game.html" style="color:rgb(255, 4, 4);"> HomePage</a> <br>
+        <a href="firstThreejs.html" style="color:rgb(255, 4, 4);"> Game Page</a> <br>
+        <a href="frontpage.html" style="color:rgb(255, 4, 4);"> Login Page</a> <br>
+        <a href="frontpage.html" style="color:rgb(255, 4, 4);"> Register Page</a> <br>
+        <a href="" style="color:rgb(255, 4, 4);"> 404 Page</a> <br>
+        
+        <style>
+            body {
+                background-image: url('resources/img/SpaceBackground.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+      
+        <h2 style="color:rgb(255, 4, 4);">This is an adventure game.</h2>
+        <p> this game is engading</p>
+    
+        <button onclick="alert('it is clicked');"> click me </button>
+        <p id="result"> this is result</p>
+
+        <script> 
+            console.log("First script");
+            document.getElementById("myitem").innerHTML = "my game is loading. please wait";
+        </script>
+
+        <script src="script.js"></script>
+        <script type="module">
+          import message from "./message.js";
+          document.getElementById("result").innerHTML = message(); 
+
+        </script>
+
+    </body>
+</html>
